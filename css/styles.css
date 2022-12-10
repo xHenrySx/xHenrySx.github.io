@@ -1,0 +1,134 @@
+.about {
+    background-color:#66bfbf ;
+    height: 100px;
+    margin-top: 75px;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Vollkorn", serif;
+}
+.contact-me {
+  line-height: 2;
+
+}
+.cloud-1 {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+.cloud-2 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+}
+
+.mountain {
+  margin-bottom: -7px;
+}
+.profile-picture {
+  border-radius: 50%;
+  height: 250px;
+  width: 200px;
+  /* Achicar la foto verticalmente */
+}
+.top-container {
+  background-color: #cdf0ea;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 560%;
+  margin: 50px;
+  margin-bottom: 0px;
+  font-family: "Quicksand", sans-serif;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-top: 0px;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.java {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.python {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile-description {
+  color: #40514e;
+}
+
+hr {
+  color: #eaf6f6;
+  border: 3px;
+  border-style: dotted;
+  border-width: 10px;
+  border-top-width: 0px;
+  margin: auto 45% auto 45%;
+}
+
+.about-link {
+    margin: auto 10px;
+    color: #11999e;
+}
+
+.copyright {
+    color:#eaf6f6 ;
+    font-size: smaller;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
