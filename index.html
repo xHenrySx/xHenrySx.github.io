@@ -1,77 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Henry S</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="images/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Vollkorn&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="cloud-1" src="images/cloud.png" alt="cloud-img" />
-      <h1 class="profile-name">I'm Henry.</h1>
-      <h2 class="profile-description">A programmer.</h2>
-      <img class="cloud-2" src="images/cloud.png" alt="cloud-img" />
-      <img class="mountain" src="images/mountain.png" alt="mountain-img" />
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          class="profile-picture"
-          src="images/fotoPerfil.jpg"
-          alt="my-profile-picture"
-        />
-        <h2>Hello!.</h2>
-        <p class="profile-description">
-          I'm Enrique Saldivar, a computer engineer student from the National
-          University of Asuncion. I'm currently learning web development in a
-          fullstack bootcamp at Udemy. Also, I'm looking for a job as a backend
-          developer or fullstack, both at junior level.
-        </p>
-      </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="python" src="images/phyton.png" alt="python-logo" />
-          <h3>Python.</h3>
-          <p class="skill-python-text">
-            I've been learning python since 2021 until now. I initially started
-            with this language at University, where I learned the basics and
-            more advanced concepts.
-          </p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>My Portfolio</title>
+</head>
+<header>
+    <!-- NavBar -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+            <div class="container-fluid">
+                <a href="#about-me" class="navbar-brand">Henry</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto justify-content-end">
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link active" aria-current="page">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#footer" class="nav-link active">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="mailto:enrisal2000@gmail.com" class="btn btn-primary rounded-pill">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- End of NavBar -->
+
+    
+</header>
+<body>
+    <!-- About me -->
+    <section id="about-me">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <h1 class="title">Hi, I'm <span class="orange-text">Henry</span> !</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="my-description">A computer science student from the National University of Asuncion.
+                        Actually in the four semester.
+                        My knowledge extends from <em>Python</em>, <em>C</em>, <em>Java</em>, <em>JavaScript</em>,
+                        <em>SQL</em> for a 'Back-end' language to <em>HTML</em>, <em>CSS</em>, <em>Bootstrap</em> for 'Front-end'.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-tech-list l-flex">
+                    <h4>Other technologies</h4>
+                        <ul class="list-group list-group-flush tech-list"> 
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                Express.js - Node.js
+                                <span class="badge rounded-pill list-percentage">60%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                PostgreSQL
+                                <span class="badge rounded-pill list-percentage">80%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                JQuery
+                                <span class="badge rounded-pill list-percentage">70%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                Git
+                                <span class="badge rounded-pill list-percentage">80%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                EJS
+                                <span class="badge rounded-pill list-percentage">60%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
+                                MongoDB - Moongosw
+                                <span class="badge rounded-pill list-percentage">40%</span>
+                            </li>
+                        </ul>
+                </div>
+
+            </div>
         </div>
-        <div class="skill-row">
-          <img class="java" src="images/java.png" alt="java-logo" />
-          <h3>Java.</h3>
-          <p class="skill-java-text">
-            With this language I've haved learned data structures and
-            algorithms, efficient programming, and object-oriented programming,
-            among other things. This language is the one I code the most
-            difficult problems. I did some projects with this language, like a
-            Web-Baking application, with PostgreSQL database.
-          </p>
+    </section>
+    <!-- End of About me -->
+
+    <hr>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h1 class="title">Some <span class="orange-text">Projects</span> !</h1>
+        <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <a href="https://www.henrysdev.me/tindog/"><img src="images/tingog.png" class="d-block w-100 size" alt="TinDog page picture"></a>
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>TinDog</h5>
+                  <p>Practice of BootStrap. Using lots of classes, functions and designing</p>
+                  <p class="tech-used">HTML / CSS / BootStrap</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <a href="https://www.henrysdev.me/simongame/"><img src="images/simongame.png" class="d-block w-100 size" alt="simonGame page picture"></a>
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>Simon Game</h5>
+                  <p>Just a simple game, where I put in practice my JavaScript skills</p>
+                  <p class="tech-used">HTML / CSS / BootStrap / JavaScript</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/coming-soon.jpg" class="d-block w-100 size" alt="coming-soon image">
+                <div class="carousel-caption d-none d-md-block text-light">
+                  <h5>More projects soon...</h5>
+                  <p class="tech-used">Projects using SQL, MongoDB ahead !</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- End of Projects -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+<!--  Footer  -->
+<footer id="footer">
+        <div class="row">
+            <div class="col-lg-12 col-md-6">
+                <a href="mailto:enrisal2000@gmail.com" class="btn btn-primary btn-lg rounded-pill">Contact Me</a>
+            </div>
+            <div class="col-lg-12 col-md-6 bottom">
+                    <p>&copy Enrique Saldivar 2022
+                        <br>
+                        <a href="https://www.linkedin.com/in/henry-saldivar/" class="linkedin-link"> Linkedin</a>
+                    </p>
+                    
+            </div>
         </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If my website or experience interests you, please contact me.</h3>
-        <p>Send me an email and I'll get back to you as soon as possible.</p>
-        <a class="btn" href="mailto:enrisal2000@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
-    <div class="about">
-        <a class="about-link" href="https://www.linkedin.com/in/henry-saldivar/">Linkedin</a>
-        <a class="about-link" href="https://www.facebook.com/enriqueadrian.saldivarduarte/">Facebook</a>
-        <a class="about-link" href="https://henrysdev.me/cv/">First Ever Website</a>
-        <p class="copyright">© 2022 Enrique Saldivar @ henrysdev</p>
-    </div>
-  </body>
+</footer>
+<!-- End of Footer -->
 </html>

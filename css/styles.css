@@ -1,135 +1,138 @@
-.about {
-    background-color:#66bfbf ;
-    height: 100px;
-    margin-top: 75px;
-}
-
-body {
-  margin: 0px;
-  text-align: center;
-  font-family: "Vollkorn", serif;
-}
-.contact-me {
-  line-height: 2;
-
-}
-.cloud-1 {
-  position: absolute;
-  top: 10%;
-  left: 75%;
-}
-
-.cloud-2 {
-  position: absolute;
-  top: 55%;
-  left: 15%;
-}
-
-.mountain {
-  margin-bottom: -7px;
-}
-.profile-picture {
-  border-radius: 50%;
-  height: 250px;
-  width: 200px;
-  /* Achicar la foto verticalmente */
-}
-.top-container {
-  background-color: #cdf0ea;
-  position: relative;
-  padding-top: 100px;
-}
-
-h1 {
-  font-size: 560%;
-  margin: 50px;
-  margin-bottom: 0px;
-  font-family: "Quicksand", sans-serif;
-  color: #66bfbf;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  margin-top: 0px;
-  color: #66bfbf;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  color: #11999e;
+/* Generales */
+body, header, footer {
+    font-family: "Roboto Slab", serif;
+    background-color: #1A1826;
+    color: #FFFFFF;
 }
 
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
 }
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
+h4, h5 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 1.5;
+h5 {
+    color: #F2A766;
 }
-
-.java {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+/* NavBar */
+.nav-item {
+    margin: 0 20px 0 20px;
 }
 
-.python {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+/* Header - start page */
+.header-text {
+    text-align: left;
+    margin: 20px 0 0 20px;
 }
 
-.profile-description {
-  color: #40514e;
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    padding-top: 56px;
+    margin-bottom: 50px;
 }
+
+.orange-text {
+   color: #F2A766;
+}
+
+.my-description {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+/* Other technologies section */
+.tech-list {
+    padding: 0 0 0 22%;
+}
+
+.list-group-item { 
+    margin: -5px;
+    border-left: 5px solid #85D982 !important;
+}
+
+.col-tech-list {
+    padding-left: 100px;
+}
+
+.badge {
+    background-color: #323859;
+}
+
+@media (max-width: 768px) {
+    .my-description {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+    }
+    
+    .title {
+        padding-top: 10px;
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .col-tech-list {
+        padding-left: 0px;
+    }
+    .tech-list {
+        padding: 0 0 0 0;
+    }
+}
+
+/* Horizontal Rule */
 
 hr {
-  color: #eaf6f6;
+    color: #323859;
   border: 3px;
   border-style: dotted;
   border-width: 10px;
   border-top-width: 0px;
-  margin: auto 45% auto 45%;
+  margin: auto 40% auto 40%;
 }
 
-.about-link {
-    margin: auto 10px;
-    color: #11999e;
+/* Projects Section */
+
+.tech-used {
+    color: #FFFFFF;
 }
 
-.copyright {
-    color:#eaf6f6 ;
-    font-size: smaller;
+.size {
+    padding: 0 20% 16% 20%;
 }
 
-.middle-container {
-    margin: 100px 0;
+/* Footer */
+#footer {
+    text-align: center;
+    background-color: #323859;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding: 10px 20% 0 20%;
 }
-\n
+
+.linkedin-link {
+    color: #3084F2;
+    text-decoration: none;
+}
+
+.linkedin-link:hover {
+    color:#85D982;
+}
+
+
