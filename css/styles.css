@@ -25,6 +25,11 @@ h5 {
 .nav-item {
     margin: 0 20px 0 20px;
 }
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+}
 
 /* Header - start page */
 .header-text {
