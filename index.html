@@ -1,180 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico">
-    
+    <link rel="icon" href="images/favicon.ico" />
+
     <!-- BootStrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>My Portfolio</title>
-</head>
-<header>
+  </head>
+  <header>
     <!-- NavBar -->
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg bg-black navbar-dark">
-            <div class="container-fluid">
-                <a href="#about-me" class="navbar-brand">Henry</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto justify-content-end">
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link active" aria-current="page">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#footer" class="nav-link active">About</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="mailto:enrisal2000@gmail.com" class="btn btn-primary rounded-pill">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+        <div class="container-fluid">
+          <a href="#about-me" class="navbar-brand">Henry</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto justify-content-end">
+              <li class="nav-item">
+                <a href="#projects" class="nav-link active" aria-current="page"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#footer" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  href="mailto:enrisal2000@gmail.com"
+                  class="btn btn-primary rounded-pill"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
     <!-- End of NavBar -->
-
-    
-</header>
-<body>
+  </header>
+  <body>
     <!-- About me -->
     <section id="about-me">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h1 class="title">Hi, I'm <span class="orange-text">Henry</span> !</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <p class="my-description">A computer science student from the National University of Asuncion.
-                        Actually in the four semester.
-                        My knowledge extends from <em>Python</em>, <em>C</em>, <em>Java</em>, <em>JavaScript</em>,
-                        <em>SQL</em> for a 'Back-end' language to <em>HTML</em>, <em>CSS</em>, <em>Bootstrap</em> for 'Front-end'.
-                    </p>
-                </div>
-                <div class="col-lg-6 col-tech-list l-flex">
-                    <h4>Other technologies</h4>
-                        <ul class="list-group list-group-flush tech-list"> 
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                Express.js - Node.js
-                                <span class="badge rounded-pill list-percentage">60%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                PostgreSQL
-                                <span class="badge rounded-pill list-percentage">80%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                JQuery
-                                <span class="badge rounded-pill list-percentage">70%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                Git
-                                <span class="badge rounded-pill list-percentage">80%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                EJS
-                                <span class="badge rounded-pill list-percentage">60%</span>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light">
-                                MongoDB - Moongose
-                                <span class="badge rounded-pill list-percentage">40%</span>
-                            </li>
-                        </ul>
-                </div>
-
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class="title">
+              Hi, I'm <span class="orange-text">Henry</span> !
+            </h1>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="my-description">
+              A computer science student from the National University of
+              Asuncion. Actually in the four semester. My knowledge extends from
+              <em>Python</em>, <em>C</em>, <em>Java</em>, <em>JavaScript</em>,
+              <em>SQL</em> for a 'Back-end' language to <em>HTML</em>,
+              <em>CSS</em>, <em>Bootstrap</em> for 'Front-end'.
+            </p>
+          </div>
+          <div class="col-lg-6 col-tech-list l-flex">
+            <h4>Other technologies</h4>
+            <ul class="list-group list-group-flush tech-list">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                Express.js - Node.js
+                <span class="badge rounded-pill list-percentage">60%</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                PostgreSQL
+                <span class="badge rounded-pill list-percentage">80%</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                JQuery
+                <span class="badge rounded-pill list-percentage">70%</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                Git
+                <span class="badge rounded-pill list-percentage">80%</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                EJS
+                <span class="badge rounded-pill list-percentage">60%</span>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center bg-transparent border-0 text-light"
+              >
+                MongoDB - Moongose
+                <span class="badge rounded-pill list-percentage">40%</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- End of About me -->
 
-    <hr>
+    <hr />
 
     <!-- Projects -->
     <section id="projects">
-        <h1 class="title">Some <span class="orange-text">Projects</span> !</h1>
-        <div id="carouselDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <h1 class="title">Some <span class="orange-text">Projects</span> !</h1>
+      <div
+        id="carouselDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselDark"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <a href="https://www.henrysdev.me/tindog/"
+              ><img
+                src="images/tingog.png"
+                class="d-block w-100 size"
+                alt="TinDog page picture"
+            /></a>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>TinDog</h5>
+              <p>
+                Practice of BootStrap. Using lots of classes, functions and
+                designing
+              </p>
+              <p class="tech-used">HTML / CSS / BootStrap</p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <a href="https://www.henrysdev.me/tindog/"><img src="images/tingog.png" class="d-block w-100 size" alt="TinDog page picture"></a>
-                <div class="carousel-caption d-none d-md-block text-light">
-                  <h5>TinDog</h5>
-                  <p>Practice of BootStrap. Using lots of classes, functions and designing</p>
-                  <p class="tech-used">HTML / CSS / BootStrap</p>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="5000">
-                <a href="https://www.henrysdev.me/simongame/"><img src="images/simongame.png" class="d-block w-100 size" alt="simonGame page picture"></a>
-                <div class="carousel-caption d-none d-md-block text-light">
-                  <h5>Simon Game</h5>
-                  <p>Just a simple game, where I put in practice my JavaScript skills</p>
-                  <p class="tech-used">HTML / CSS / BootStrap / JavaScript</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://iuploader.henrysdev.me/"><img src="images/imageuploader.png" class="d-block w-100 size" alt="image uploader page image"></a>
-                <div class="carousel-caption d-none d-md-block text-light">
-                  <h5>Image Uploader</h5>
-                  <p class="tech-used">Page to upload images to a database using PostgreSQL, Node and React !</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://myunplash.web.app/"><img src="images/unplash.png" class="d-block w-100 size" alt="my unplash page image"></a>
-                <div class="carousel-caption d-none d-md-block text-light">
-                  <h5>My unsplash</h5>
-                  <p class="tech-used">Project to display images like unsplash or pinterest where you can add images with a url and its description !</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <a href="https://www.henrysdev.me/simongame/"
+              ><img
+                src="images/simongame.png"
+                class="d-block w-100 size"
+                alt="simonGame page picture"
+            /></a>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>Simon Game</h5>
+              <p>
+                Just a simple game, where I put in practice my JavaScript skills
+              </p>
+              <p class="tech-used">HTML / CSS / BootStrap / JavaScript</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://iuploader.henrysdev.me/"
+              ><img
+                src="images/imageuploader.png"
+                class="d-block w-100 size"
+                alt="image uploader page image"
+            /></a>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>Image Uploader</h5>
+              <p class="tech-used">
+                Page to upload images to a database using PostgreSQL, Node and
+                React !
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="https://myunplash.web.app/"
+              ><img
+                src="images/unplash.png"
+                class="d-block w-100 size"
+                alt="my unplash page image"
+            /></a>
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>My unsplash</h5>
+              <p class="tech-used">
+                Project to display images like unsplash or pinterest where you
+                can add images with a url and its description !
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
     <!-- End of Projects -->
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 
-<!--  Footer  -->
-<footer id="footer">
-        <div class="row">
-            <div class="col-lg-12 col-md-6">
-                <a href="mailto:enrisal2000@gmail.com" class="btn btn-primary btn-lg rounded-pill">Contact Me</a>
-            </div>
-            <div class="col-lg-12 col-md-6">
-                    <p>&copy Enrique Saldivar 2023
-                    </p>
-            </div>
-            <div class="col-lg-6">
-                <a href="https://www.linkedin.com/in/henry-saldivar/" class="link"> Linkedin</a>
-            </div>
-            <div class="col-lg-6">
-                <a href="https://www.figma.com/file/vfYtn5cSDUnHg6cwwQ9nJD/Main-Page?node-id=0%3A1&t=ulPDx5RJwNWi1WwU-1" class="link">My desing</a>
-            </div>
-        </div>
-</footer>
-<!-- End of Footer -->
+  <!--  Footer  -->
+  <footer id="footer">
+    <div class="row">
+      <div class="col-lg-12 col-md-6">
+        <a
+          href="mailto:enrisal2000@gmail.com"
+          class="btn btn-primary btn-lg rounded-pill"
+          >Contact Me</a
+        >
+      </div>
+      <div class="col-lg-12 col-md-6">
+        <p>&copy Enrique Saldivar 2023</p>
+      </div>
+      <div class="col-lg-6">
+        <a href="https://www.linkedin.com/in/henry-saldivar/" class="link">
+          Linkedin</a
+        >
+      </div>
+      <div class="col-lg-6">
+        <a
+          href="https://www.figma.com/file/vfYtn5cSDUnHg6cwwQ9nJD/Main-Page?node-id=0%3A1&t=ulPDx5RJwNWi1WwU-1"
+          class="link"
+          >My desing</a
+        >
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
 </html>
